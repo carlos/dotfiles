@@ -1,0 +1,36 @@
+[user]
+	name = Carlos Latugaye
+	email = carlos@code54.com
+[core]
+	excludesfile = /Users/carlos/.gitignore_global
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	ui = auto
+[alias]
+	ci = commit
+	co = checkout
+	cpick = cherry-pick
+	g = grep --break --heading --line-number
+	graphviz = "!f() { echo 'digraph git {' ; git log --pretty='format:  %h -> { %p }' \"$@\" | sed 's/[0-9a-f][0-9a-f]*/\"&\"/g' ; echo '}'; }; f"
+	loga = "!authlog() { git log --all --author=$1; }; authlog"
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit
+	lola = log --graph --decorate --pretty=oneline --abbrev-commit --all --date-order
+	push-n = "!git log $(git push -n 2>&1 |fgrep '..' | awk '{ print $1 }')"
+	push-np = "!git log -p $(git push -n 2>&1 |fgrep '..' | awk '{ print $1 }')"
+	sapply = stash apply
+	sdrop = stash drop
+	slist = stash list
+	spop = stash pop
+	ssave = stash save
+	st = status
+	stash-unapply = !git stash show -p | git apply --ignore-whitespace -R
+	svn-rebase-stashing = !git stash save 'preparing to svn-rebase' && git svn rebase --fetch-all && git stash pop
+[tag]
+	sort = version:refname
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
