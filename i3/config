@@ -183,3 +183,6 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
+
+# Run keyboard configuration
+exec_always ~/bin/keyboard.sh
