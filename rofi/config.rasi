@@ -1,10 +1,11 @@
 configuration {
-  display-run: " ";
-  display-drun: "  ";
-  display-window: "  ";
+  display-drun: "drun:  ";
+  display-window: "window:  ";
+  display-run: "run:  ";
+  display-ssh: "ssh:  ";
   drun-display-format: "{icon} {name}";
-  font: "JetBrainsMono Nerd Font Medium 18";
-  modi: "window,run,drun";
+  font: "FiraSans Normal 20";
+  modi: "drun,window,run,ssh";
   show-icons: true;
 }
 
