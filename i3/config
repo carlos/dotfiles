@@ -185,3 +185,6 @@ bar {
 
 # Run keyboard configuration
 exec_always ~/bin/keyboard.sh
+
+# Floating windows
+for_window [class="(?i)calculator"] floating enable, move position center
