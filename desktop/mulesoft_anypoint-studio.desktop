@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=AnypointStudio
+GenericName=Anypoint Studio
+Comment=Mulesoft Anypoint Studio
+Exec=/usr/local/AnypointStudio/AnypointStudio
+Terminal=false
+Type=Application
+Icon=/usr/local/AnypointStudio/icon.xpm
+Categories=Development;
+StartupNotify=false
