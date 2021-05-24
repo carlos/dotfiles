@@ -42,7 +42,15 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Shift+Return exec kitty
+
+# simulate "floating" terminal
+exec --no-startup-id kitty --name FloatingTerm
+for_window [instance="FloatingTerm"] floating enable
+for_window [instance="FloatingTerm"] resize set width 75 ppt height 75 ppt
+for_window [instance="FloatingTerm"] move scratchpad
+for_window [instance="FloatingTerm"] move absolute position center
+bindsym $mod+Return [instance="FloatingTerm"] scratchpad show
 
 # kill focused window
 bindsym $mod+Shift+q kill
