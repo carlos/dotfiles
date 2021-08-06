@@ -196,6 +196,6 @@ exec_always ~/bin/keyboard.sh
 
 # Floating windows
 for_window [class="(?i)calculator"] floating enable, move position center
-
+for_window [class="(?i)1Password"] floating enable, move position center
 
 exec --no-startup-id xsetroot -solid "#4B5563"
