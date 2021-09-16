@@ -2,7 +2,7 @@
 	name = Carlos Latugaye
 	email = carlos@code54.com
 [core]
-	excludesfile = /Users/carlos/.gitignore_global
+	excludesfile = ~/.gitignore_global
 [color]
 	diff = auto
 	status = auto
