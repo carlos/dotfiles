@@ -110,3 +110,5 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 # Node
 export PATH="$HOMEBREW_PREFIX/opt/node@14/bin:$PATH"
 
+# MongoDB
+export PATH="$HOMEBREW_PREFIX/opt/mongodb-community@4.4/bin:$PATH"
