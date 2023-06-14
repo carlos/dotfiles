@@ -71,8 +71,9 @@ ZSH_THEME="spaceship"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+    asdf
     git
-    osx
+    macos
     zsh-syntax-highlighting
 )
 
@@ -107,8 +108,11 @@ source $ZSH/oh-my-zsh.sh
 # iTerm2 shell integration
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-# Node
-export PATH="$HOMEBREW_PREFIX/opt/node@14/bin:$PATH"
+# ASDF (version manager)
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
+
+# Java
+. ~/.asdf/plugins/java/set-java-home.zsh
 
 # MongoDB
 export PATH="$HOMEBREW_PREFIX/opt/mongodb-community@4.4/bin:$PATH"
