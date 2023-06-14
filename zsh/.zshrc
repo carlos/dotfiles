@@ -118,4 +118,6 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 . ~/.asdf/plugins/java/set-java-home.zsh
 
 # MongoDB
-export PATH="$HOMEBREW_PREFIX/opt/mongodb-community@4.4/bin:$PATH"
+#export PATH="$HOMEBREW_PREFIX/opt/mongodb-community@3.6/bin:$PATH"
+#export PATH="$HOMEBREW_PREFIX/opt/mongodb-community@4.4/bin:$PATH"
+export PATH="$HOMEBREW_PREFIX/opt/mongodb-community/bin:$PATH"
