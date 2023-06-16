@@ -11,3 +11,4 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
+  - [macos/set-defaults.sh, Setting macOS defaults]
