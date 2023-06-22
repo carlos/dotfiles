@@ -77,6 +77,17 @@ plugins=(
     zsh-syntax-highlighting
 )
 
+# If you have installed completions using Homebrew, its completions may
+# not be on your $FPATH if you are using the system zsh. Homebrew installs
+# zsh completion definitions to /opt/homebrew/share/zsh/site-functions,
+# which will be on $FPATH for the Homebrew-installed zsh, but not for the
+# system zsh.
+# If you want it to work with the system zsh, add this to your ~/.zshrc
+# before it sources oh-my-zsh.sh.
+if (( ! ${fpath[(I)/opt/homebrew/share/zsh/site-functions]} )); then
+  FPATH=/opt/homebrew/share/zsh/site-functions:$FPATH
+fi
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
