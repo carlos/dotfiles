@@ -230,6 +230,17 @@ defaults write com.apple.messageshelper.MessageController SOInputLineSettings -d
 
 
 ###############################################################################
+# Rectangle                                                                    #
+###############################################################################
+
+# Add 10px gap between windows
+defaults write com.knollsoft.Rectangle gapSize -int 10
+
+# Launch on login
+defaults write com.knollsoft.Rectangle launchOnLogin -int 1
+
+
+###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
 
@@ -243,6 +254,7 @@ for app in "Activity Monitor" \
 	"Mail" \
 	"Messages" \
 	"Photos" \
+	"Rectangle" \
 	"Safari" \
 	"SystemUIServer" \
 	"Terminal" \
