@@ -62,9 +62,6 @@ defaults write com.apple.screencapture disable-shadow -bool true
 # Finder                                                                      #
 ###############################################################################
 
-# Finder: show all filename extensions
-defaults write NSGlobalDomain AppleShowAllExtensions -bool true
-
 # Finder: show files as list
 defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 
@@ -96,9 +93,6 @@ defaults write com.apple.dock magnification -bool false
 
 # Change minimize/maximize window effect
 defaults write com.apple.dock mineffect -string "scale"
-
-# Minimize windows into their application’s icon
-defaults write com.apple.dock minimize-to-application -bool true
 
 # Enable spring loading for all Dock items
 defaults write com.apple.dock enable-spring-load-actions-on-all-items -bool true
