@@ -34,6 +34,13 @@ The `homebrew/Brewfile` installs all of the software and applications I have ins
 5. Select the `Automatically` option for *Save changes*
 6. Click *Save Now*
 
+### Coding Fonts
+
+* [FiraCode](https://github.com/tonsky/FiraCode)
+* [IBM Plex Mono](https://www.ibm.com/plex/)
+* [Iosevka](https://github.com/be5invis/Iosevka)
+* [M Plus 1 Code](https://mplusfonts.github.io)
+
 
 ## Structure
 
