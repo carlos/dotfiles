@@ -29,6 +29,13 @@ To install these applications run `brew bundle install`.
 
 To export the current set of applications and packages run `brew bundle dump -f --all --describe`. This command will regenerate the Brewfile and include the brief description of each package.
 
+### Coding Fonts
+
+* [FiraCode](https://github.com/tonsky/FiraCode)
+* [IBM Plex Mono](https://www.ibm.com/plex/)
+* [Iosevka](https://github.com/be5invis/Iosevka)
+* [M Plus 1 Code](https://mplusfonts.github.io)
+
 ### iTerm2 configuration
 
 1. Open iTerm2
@@ -38,12 +45,13 @@ To export the current set of applications and packages run `brew bundle dump -f 
 5. Select the `Automatically` option for *Save changes*
 6. Click *Save Now*
 
-### Coding Fonts
+### Rectangle configuration
 
-* [FiraCode](https://github.com/tonsky/FiraCode)
-* [IBM Plex Mono](https://www.ibm.com/plex/)
-* [Iosevka](https://github.com/be5invis/Iosevka)
-* [M Plus 1 Code](https://mplusfonts.github.io)
+1. Open iTerm2
+2. Go to *Preferences...*, *Settings*
+3. Click *rectangle/RectangleConfig.json*
+4. Select `rectangle/RectangleConfig.json`
+5. Click *Open*
 
 
 ## Structure
@@ -59,6 +67,7 @@ The repository is organized as follows:
 - `iTerm2/` - configuration files for [iTerm2](https://iterm2.com)
 - `lib/` - submodules used by this project. See [README](./lib/README.md) for more details.
 - `macos/` - list of [macOS defaults](https://macos-defaults.com)
+- `rectangle/` - configuration for [Rectangle](https://github.com/rxhanson/Rectangle) window manager
 - `zsh/` - configuration files for ZSH
 
 
