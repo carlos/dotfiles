@@ -54,18 +54,8 @@ The repository is organized as follows:
 - `homebrew/` - a list of software to install via Homebrew (see `brew bundle` and `brew bundle cleanup`)
 - `iTerm2/` - configuration files for [iTerm2](https://iterm2.com)
 - `lib/` - submodules used by this project. See [README](./lib/README.md) for more details.
-- `macos/` - list of macOS defaults
+- `macos/` - list of [macOS defaults](https://macos-defaults.com)
 - `zsh/` - configuration files for ZSH
-
-
-## License
-
-MIT License. See `LICENSE`.
-
-
-## Reference
-
-- [masOS defaults](https://macos-defaults.com)
 
 
 ## Inspiration
@@ -77,3 +67,7 @@ The following repositories served as inspiration for this repository:
 - [mathiasbynes/dotfiles](https://github.com/mathiasbynens/dotfiles)
 - [ryanb/dotfiles](https://github.com/ryanb/dotfiles)
 
+
+## License
+
+MIT License. See `LICENSE`.
