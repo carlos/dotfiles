@@ -5,9 +5,10 @@
 - clean: ['~']
 
 - link:
-    ~/.tool-versions: asdf/tool-versions
+    ~/.config/iterm2/custom: iterm2
     ~/.gitconfig: git/gitconfig
     ~/.gitignore_global: git/gitignore
+    ~/.tool-versions: asdf/tool-versions
     ~/.zprofile: zsh/zprofile
     ~/.zshrc: zsh/zshrc
 
