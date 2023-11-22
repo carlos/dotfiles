@@ -23,7 +23,11 @@ This will install all required dotfiles in your home directory as symlinks using
 
 ## Software
 
-The `homebrew/Brewfile` installs all of the software and applications I have installed on my Mac, including Homebrew formulae, Homebrew casks, fonts, Mac App Store applications, and Visual Studio Code plugins.
+The `homebrew/Brewfile` contains the list of all of the software and applications I have installed on my Mac, including Homebrew formulae, Homebrew casks, fonts, Mac App Store applications, and Visual Studio Code plugins.
+
+To install these applications run `brew bundle install`.
+
+To export the current set of applications and packages run `brew bundle dump -f --all --describe`. This command will regenerate the Brewfile and include the brief description of each package.
 
 ### iTerm2 configuration
 
