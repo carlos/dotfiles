@@ -233,28 +233,4 @@ defaults write com.knollsoft.Rectangle gapSize -int 10
 # Launch on login
 defaults write com.knollsoft.Rectangle launchOnLogin -int 1
 
-
-###############################################################################
-# Kill affected applications                                                  #
-###############################################################################
-
-for app in "Activity Monitor" \
-	"Address Book" \
-	"Calendar" \
-	"Contacts" \
-	"Dock" \
-	"Finder" \
-	"Google Chrome" \
-	"Mail" \
-	"Messages" \
-	"Photos" \
-	"Rectangle" \
-	"Safari" \
-	"SystemUIServer" \
-	"Terminal" \
-	"iCal" \
-	"iTerm2"; do
-	killall "${app}" &> /dev/null
-done
-
 echo "Done. Note that some of these changes require a logout/restart to take effect."
