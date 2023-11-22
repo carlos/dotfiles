@@ -65,9 +65,9 @@ The repository is organized as follows:
 - `git/` -  configuration files for git
 - `homebrew/` - a list of software to install via Homebrew (see `brew bundle` and `brew bundle cleanup`)
 - `iTerm2/` - configuration files for [iTerm2](https://iterm2.com)
-- `lib/` - submodules used by this project. See [README](./lib/README.md) for more details.
 - `macos/` - list of [macOS defaults](https://macos-defaults.com)
 - `rectangle/` - configuration for [Rectangle](https://github.com/rxhanson/Rectangle) window manager
+- `third-party/` - submodules used by this project. See [README](./lib/README.md) for more details.
 - `zsh/` - configuration files for ZSH
 
 
