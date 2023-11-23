@@ -7,7 +7,7 @@ Dotfiles for configuring macOS with ZSH and Homebrew.
 
 - macOS
 - XCode Command Line Tools
-- Homebrew (on macOS, the install script will install Homebrew)
+- [Homebrew](https://brew.sh)
 
 
 ## Installation
@@ -38,7 +38,7 @@ To export the current set of applications and packages run `brew bundle dump -f 
 
 ### iTerm2 configuration
 
-1. Open iTerm2
+1. Open [iTerm2](https://iterm2.com)
 2. Go to *Preferences...*, *General*, *Preferences*
 3. Check *Load preferences from a custom folder or URL*
 4. Enter `$HOME/.config/iterm2/custom`
@@ -47,9 +47,9 @@ To export the current set of applications and packages run `brew bundle dump -f 
 
 ### Rectangle configuration
 
-1. Open iTerm2
+1. Open [Rectangle](https://github.com/rxhanson/Rectangle)
 2. Go to *Preferences...*, *Settings*
-3. Click *rectangle/RectangleConfig.json*
+3. Click *Import*
 4. Select `rectangle/RectangleConfig.json`
 5. Click *Open*
 
@@ -61,10 +61,9 @@ The repository is organized as follows:
 - `install` - setup script that can be used to install or update the dotfiles on your system
 - `install.conf.yaml` - configuration of dotfiles and scripts to run during the install process
 - `asdf/` - configuration files for [asdf](https://asdf-vm.com)
-- `dotbot/` - the dotbot submodule
 - `git/` -  configuration files for git
-- `homebrew/` - a list of software to install via Homebrew (see `brew bundle` and `brew bundle cleanup`)
-- `iTerm2/` - configuration files for [iTerm2](https://iterm2.com)
+- `homebrew/` - a list of software to install via [Homebrew](https://brew.sh) (see `brew bundle` and `brew bundle cleanup`)
+- `iterm2/` - configuration files for [iTerm2](https://iterm2.com)
 - `macos/` - list of [macOS defaults](https://macos-defaults.com)
 - `rectangle/` - configuration for [Rectangle](https://github.com/rxhanson/Rectangle) window manager
 - `third-party/` - submodules used by this project. See [README](./lib/README.md) for more details.
