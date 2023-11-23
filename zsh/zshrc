@@ -141,4 +141,4 @@ autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /opt/homebrew/bin/terraform terraform
 
 # Zsh Autoenv
-source ~/Projects/Personal/dotfiles/lib/zsh-autoenv/autoenv.zsh
+source ~/Projects/Personal/dotfiles/third-party/zsh-autoenv/autoenv.zsh
