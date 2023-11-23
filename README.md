@@ -67,6 +67,7 @@ The repository is organized as follows:
 - `macos/` - list of [macOS defaults](https://macos-defaults.com)
 - `rectangle/` - configuration for [Rectangle](https://github.com/rxhanson/Rectangle) window manager
 - `third-party/` - submodules used by this project. See [README](./lib/README.md) for more details.
+- `vscode/` - configuration files for [Visual Studio Code](https://code.visualstudio.com)
 - `zsh/` - configuration files for ZSH
 
 

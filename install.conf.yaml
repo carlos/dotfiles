@@ -11,6 +11,7 @@
     ~/.tool-versions: asdf/tool-versions
     ~/.zprofile: zsh/zprofile
     ~/.zshrc: zsh/zshrc
+    ~/Library/Application Support/Code/User/settings.json: vscode/settings.json
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
