@@ -120,16 +120,16 @@ source $ZSH/oh-my-zsh.sh
 alias cdr='cd $(git rev-parse --show-toplevel)'
 
 # Z - Tracks most-used directories to make cd smarter
-. /opt/homebrew/etc/profile.d/z.sh
 
 # iTerm2 shell integration
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+source /opt/homebrew/etc/profile.d/z.sh
 
 # ASDF (version manager)
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
+source /opt/homebrew/opt/asdf/libexec/asdf.sh
 
 # Java
-. ~/.asdf/plugins/java/set-java-home.zsh
+source ~/.asdf/plugins/java/set-java-home.zsh
 
 # Babashka Tasks
 _bb_tasks() {
