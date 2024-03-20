@@ -148,3 +148,6 @@ complete -o nospace -C /opt/homebrew/bin/terraform terraform
 
 # Zsh Autoenv
 source ~/Projects/Personal/dotfiles/third-party/zsh-autoenv/autoenv.zsh
+
+# Custom scripts
+export PATH=$PATH:~/Projects/Personal/scripts
