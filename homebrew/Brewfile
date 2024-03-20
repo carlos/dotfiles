@@ -21,6 +21,8 @@ brew "brew-cask-completion"
 brew "difftastic"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
+# GNU compiler collection
+brew "gcc"
 # Library to load and enumerate PKCS#11 modules
 brew "p11-kit"
 # Validating, recursive, caching DNS resolver
@@ -29,12 +31,14 @@ brew "unbound"
 brew "gnutls"
 # OpenType text shaping engine
 brew "harfbuzz"
+# Subtitle renderer for the ASS/SSA subtitle format
+brew "libass"
+# OCR (Optical Character Recognition) engine
+brew "tesseract"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # GNU awk utility
 brew "gawk"
-# GNU compiler collection
-brew "gcc"
 # Distributed revision control system
 brew "git"
 # GNU Pretty Good Privacy (PGP) package
@@ -51,8 +55,6 @@ brew "kind"
 brew "kubernetes-cli"
 # Command-line, double-entry accounting tool
 brew "ledger"
-# GNOME XML library
-brew "libxml2"
 # Mac App Store command-line interface
 brew "mas"
 # Java-based project management
