@@ -116,8 +116,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Aliases
 # Go to project root
 alias cdr='cd $(git rev-parse --show-toplevel)'
+# Enable hyperlinks on terminal
+alias ls='gls --hyperlink=auto'
 
 # Z - Tracks most-used directories to make cd smarter
 
