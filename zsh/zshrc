@@ -131,6 +131,8 @@ alias vim=nvim
 alias cdr='cd $(git rev-parse --show-toplevel)'
 # Enable hyperlinks on terminal
 alias ls='gls --hyperlink=auto'
+# Biff
+alias biff='clj -M:dev'
 
 # Z - Tracks most-used directories to make cd smarter
 source /opt/homebrew/etc/profile.d/z.sh
