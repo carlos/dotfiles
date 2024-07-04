@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Nord",
+    "workbench.colorTheme": "Everforest Dark",
     "editor.minimap.enabled": false,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
@@ -36,7 +36,7 @@
     },
     "calva.prettyPrintingOptions": {
         "printEngine": "pprint",
-        "enabled": true,
+        "enabled": false,
         "width": 120,
         "maxLength": 50
     },
@@ -69,5 +69,8 @@
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.fontFamily": "'M PLUS Code Latin'",
     "terminal.integrated.gpuAcceleration": "on",
-    "editor.fontVariations": false
+    "editor.fontVariations": false,
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
