@@ -163,3 +163,9 @@ source ~/Projects/Personal/dotfiles/third-party/zsh-autoenv/autoenv.zsh
 
 # Custom scripts
 export PATH=$PATH:~/Projects/Personal/scripts
+
+# PostgreSQL
+export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
+export LDFLAGS="-L/opt/homebrew/opt/postgresql@16/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/postgresql@16/include"
+export PKG_CONFIG_PATH="/opt/homebrew/opt/postgresql@16/lib/pkgconfig"

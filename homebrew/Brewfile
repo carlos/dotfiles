@@ -65,6 +65,8 @@ brew "minikube"
 brew "neovim"
 # Draw UML diagrams
 brew "plantuml"
+# Object-relational database system
+brew "postgresql@16", restart_service: true
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Powerful, clean, object-oriented scripting language
