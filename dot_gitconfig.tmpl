@@ -1,0 +1,47 @@
+[user]
+  name = {{ .git.name }}
+  email = {{ .git.email }}
+  signingkey = {{ .git.signingkey }}
+
+[core]
+  excludesfile = ~/.gitignore_global
+
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  ui = auto
+
+[alias]
+  ci = commit
+  co = checkout
+  cpick = cherry-pick
+  g = grep --break --heading --line-number
+  loga = "!authlog() { git log --all --author=$1; }; authlog"
+  lol = log --graph --decorate --pretty=oneline --abbrev-commit
+  lola = log --graph --decorate --pretty=oneline --abbrev-commit --all --date-order
+  st = status
+
+[tag]
+  sort = version:refname
+
+[filter "lfs"]
+  required = true
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+
+[init]
+  defaultBranch = master
+
+[gpg]
+  format = ssh
+
+{{ if eq .chezmoi.os "darwin" -}}
+[gpg "ssh"]
+  program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
+
+{{ end -}}
+
+[commit]
+  gpgsign = true

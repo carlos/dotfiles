@@ -1,0 +1,25 @@
+[asdf]
+
+[[asdf.plugins]]
+name = "java"
+versions = [
+  "adoptopenjdk-11.0.20+8",
+  "adoptopenjdk-17.0.10+7",
+  "adoptopenjdk-21.0.3+9.0.LTS",
+  "liberica-8u345+1",
+]
+
+[[asdf.plugins]]
+name = "nodejs"
+versions = [
+  "14.17.1",
+  "14.18.2",
+  "20.11.0"
+]
+
+[[asdf.plugins]]
+name = "python"
+versions = [
+  "3.10.13",
+  "3.12.3"
+]

@@ -1,0 +1,16 @@
+{{ if eq .chezmoi.os "darwin" -}}
+#!/usr/bin/env bash
+
+echo "Installing Command Line Tools (CLT) for Xcode..."
+xcode-select --install
+
+echo ""
+echo "Installing Homebrew..."
+if which brew; then
+  echo "Homebrew is already installed."
+else
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+fi
+
+{{ end -}}
+

@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+echo ""
+echo "Installing ASDF plugins..."
+
+{{ range $plugin := .asdf.plugins -}}
+asdf plugin add {{ .name }}
+
+{{ range .versions -}}
+asdf install {{ $plugin.name }} {{ . }}
+{{ end -}}
+
+{{ end -}}
+
+
+

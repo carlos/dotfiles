@@ -1,0 +1,13 @@
+# ASDF
+always_keep_download = no
+legacy_version_file = no
+plugin_repository_last_check_duration = 60
+use_release_candidates = no
+
+# Java plugin
+# https://github.com/halcyon/asdf-java#java_home-integration
+java_macos_integration_enable = yes
+
+# Node plugin
+# https://github.com/asdf-vm/asdf-nodejs#nvmrc-and-node-version-support
+legacy_version_file = yes
