@@ -130,7 +130,7 @@ alias vim=nvim
 # Go to project root
 alias cdr='cd $(git rev-parse --show-toplevel)'
 # Enable hyperlinks on terminal
-alias ls='gls --hyperlink=auto'
+alias ls='gls --hyperlink=auto --color'
 # Biff
 alias biff='clj -M:dev'
 
