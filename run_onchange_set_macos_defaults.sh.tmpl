@@ -186,17 +186,6 @@ defaults write com.apple.messageshelper.MessageController SOInputLineSettings -d
 # Disable continuous spell checking
 defaults write com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "continuousSpellCheckingEnabled" -bool false
 
-
-###############################################################################
-# Rectangle                                                                    #
-###############################################################################
-
-# Add 10px gap between windows
-defaults write com.knollsoft.Rectangle gapSize -int 10
-
-# Launch on login
-defaults write com.knollsoft.Rectangle launchOnLogin -int 1
-
 echo "Done. Note that some of these changes require a logout/restart to take effect."
 
 {{ end -}}

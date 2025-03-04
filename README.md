@@ -29,15 +29,6 @@ To export the current set of applications and packages run `brew bundle dump -f 
 * [Iosevka](https://github.com/be5invis/Iosevka)
 * [M Plus 1 Code](https://mplusfonts.github.io)
 
-### Rectangle configuration
-
-1. Open [Rectangle](https://github.com/rxhanson/Rectangle)
-2. Go to *Preferences...*, *Settings*
-3. Click *Import*
-4. Select `~/.local/share/chezmoi/darwin/RectangleConfig.json`
-5. Click *Open*
-
-
 ## Inspiration
 
 The following repositories served as inspiration for this repository:
