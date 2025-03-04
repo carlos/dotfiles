@@ -138,7 +138,8 @@ alias biff='clj -M:dev'
 source /opt/homebrew/etc/profile.d/z.sh
 
 # ASDF (version manager)
-source /opt/homebrew/opt/asdf/libexec/asdf.sh
+export ASDF_DATA_DIR=/Users/carlos/.asdf
+export PATH="$ASDF_DATA_DIR/shims:$PATH"
 
 # Java
 source ~/.asdf/plugins/java/set-java-home.zsh
