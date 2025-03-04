@@ -1,3 +1,6 @@
+
+# Set up zoxide to move between folders efficiently
+eval "$(zoxide init zsh)"
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -133,9 +136,6 @@ alias cdr='cd $(git rev-parse --show-toplevel)'
 alias ls='gls --hyperlink=auto --color'
 # Biff
 alias biff='clj -M:dev'
-
-# Z - Tracks most-used directories to make cd smarter
-source /opt/homebrew/etc/profile.d/z.sh
 
 # ASDF (version manager)
 export ASDF_DATA_DIR=/Users/carlos/.asdf
