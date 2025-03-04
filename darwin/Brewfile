@@ -6,8 +6,8 @@ tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
 tap "homebrew/services"
 tap "mongodb/brew"
-# GNU File, Shell, and Text utilities
-brew "coreutils"
+# Image format providing lossless and lossy compression for web images
+brew "webp"
 # Extendable version manager with support for Ruby, Node.js, Erlang & more
 brew "asdf"
 # Spell checker with better logic than ispell
@@ -16,8 +16,12 @@ brew "aspell"
 brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# C/C++ and Java libraries for Unicode and globalization
+brew "icu4c@76"
 # Fish completion for brew-cask
 brew "brew-cask-completion"
+# GNU File, Shell, and Text utilities
+brew "coreutils"
 # Diff that understands syntax
 brew "difftastic"
 # Simple, fast and user-friendly alternative to find
@@ -40,6 +44,8 @@ brew "ffmpeg"
 brew "gawk"
 # GNU compiler collection
 brew "gcc"
+# Interpreter for PostScript and PDF
+brew "ghostscript"
 # Distributed revision control system
 brew "git"
 # GNU Pretty Good Privacy (PGP) package
@@ -66,6 +72,8 @@ brew "maven"
 brew "minikube"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Package compiler and linker metadata toolkit
+brew "pkgconf"
 # Draw UML diagrams
 brew "plantuml"
 # Search tool like grep and The Silver Searcher
@@ -75,7 +83,7 @@ brew "ruby"
 # Temporal CLI (tctl)
 brew "tctl"
 # CLI tool that moves files or folder to the trash
-brew "trash"
+brew "trash", link: true
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Internet file retriever
