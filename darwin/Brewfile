@@ -78,6 +78,8 @@ brew "neovim"
 brew "pkgconf"
 # Draw UML diagrams
 brew "plantuml"
+# Theme for zsh
+brew "powerlevel10k"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Powerful, clean, object-oriented scripting language
