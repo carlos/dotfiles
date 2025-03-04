@@ -6,6 +6,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
 tap "homebrew/services"
 tap "mongodb/brew"
+tap "nikitabobko/tap"
 # Image format providing lossless and lossy compression for web images
 brew "webp"
 # Extendable version manager with support for Ruby, Node.js, Erlang & more
@@ -112,6 +113,8 @@ brew "mongodb/brew/mongodb-database-tools"
 cask "1password"
 # Command-line interface for 1Password
 cask "1password-cli"
+# AeroSpace is an i3-like tiling window manager for macOS
+cask "aerospace"
 # Utilities designed to make common development tasks easier
 cask "devtoys"
 # Voice and text chat software
