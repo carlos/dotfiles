@@ -6,8 +6,6 @@ tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
 tap "homebrew/services"
 tap "mongodb/brew"
-# GitOps Continuous Delivery for Kubernetes
-brew "argocd"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
 # Extendable version manager with support for Ruby, Node.js, Erlang & more
@@ -68,12 +66,8 @@ brew "maven"
 brew "minikube"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
-# Create, run, and share large language models (LLMs)
-brew "ollama"
 # Draw UML diagrams
 brew "plantuml"
-# Object-relational database system
-brew "postgresql@16", restart_service: true
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Powerful, clean, object-oriented scripting language
@@ -98,8 +92,6 @@ brew "borkdude/brew/babashka"
 brew "borkdude/brew/jet"
 # The Clojure Programming Language
 brew "clojure/tools/clojure"
-# GNU Emacs text editor
-brew "d12frosted/emacs-plus/emacs-plus@29"
 # Terraform
 brew "hashicorp/tap/terraform"
 # This package contains standard utilities for interacting with MongoDB.
@@ -108,8 +100,6 @@ brew "mongodb/brew/mongodb-database-tools"
 cask "1password"
 # Command-line interface for 1Password
 cask "1password-cli"
-# Utility to create and modify archives
-cask "betterzip"
 # Utilities designed to make common development tasks easier
 cask "devtoys"
 # Voice and text chat software
