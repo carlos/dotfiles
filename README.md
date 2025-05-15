@@ -9,10 +9,17 @@ Dotfiles for configuring macOS using [chezmoi](https://www.chezmoi.io/).
 sh -c "$(curl -fsLS get.chezmoi.io) -- init --apply $GITHUB_USERNAME"
 ```
 
-This will install the `chezmoi` binary on `~/bin`, download the `dotfiles` repository for the provided GitHub user, and apply the configurations defined on it. 
+This will install the `chezmoi` binary on `~/bin`, download the `dotfiles` repository for the provided GitHub user, and apply the configurations defined on it.
 
 A local copy of the `dotfiles` repository will be created on `~/.local/share/chezmoi`.
 
+### Upgrade chezmoi version
+
+To upgrade `chezmoi` version, run the following command:
+
+```bash
+chezmoi upgrade
+```
 
 ## Software
 
