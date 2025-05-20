@@ -4,6 +4,6 @@
 
 echo ""
 echo "Installing Homebrew packages..."
-brew bundle --no-lock --file={{ joinPath .chezmoi.sourceDir "darwin/Brewfile" }}
+brew bundle --file={{ joinPath .chezmoi.sourceDir "darwin/Brewfile" }}
 
 {{ end -}}

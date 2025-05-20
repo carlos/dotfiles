@@ -6,6 +6,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
 tap "homebrew/services"
 tap "mongodb/brew"
+tap "nikitabobko/tap"
 # Image format providing lossless and lossy compression for web images
 brew "webp"
 # Extendable version manager with support for Ruby, Node.js, Erlang & more
@@ -16,10 +17,12 @@ brew "aspell"
 brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
-# C/C++ and Java libraries for Unicode and globalization
-brew "icu4c@76"
 # Fish completion for brew-cask
 brew "brew-cask-completion"
+# Powerful, clean, object-oriented scripting language
+brew "ruby"
+# Dependency manager for Cocoa projects
+brew "cocoapods"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
 # Diff that understands syntax
@@ -46,6 +49,8 @@ brew "fzf"
 brew "gawk"
 # GNU compiler collection
 brew "gcc"
+# GitHub command-line tool
+brew "gh"
 # Interpreter for PostScript and PDF
 brew "ghostscript"
 # Distributed revision control system
@@ -54,12 +59,16 @@ brew "git"
 brew "gnupg"
 # Open-source build automation tool based on the Groovy and Kotlin DSL
 brew "gradle"
+# C/C++ and Java libraries for Unicode and globalization
+brew "icu4c@76"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
 # Kubernetes package manager
 brew "helm"
 # Simple zero-configuration command-line HTTP server
 brew "http-server"
+# Modern load testing tool, using Go and JavaScript
+brew "k6"
 # Run local Kubernetes cluster in Docker
 brew "kind"
 # Kubernetes command-line interface
@@ -78,18 +87,20 @@ brew "neovim"
 brew "pkgconf"
 # Draw UML diagrams
 brew "plantuml"
+# PDF rendering library (based on the xpdf-3.0 code base)
+brew "poppler"
 # Theme for zsh
 brew "powerlevel10k"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
-# Powerful, clean, object-oriented scripting language
-brew "ruby"
 # Temporal CLI (tctl)
 brew "tctl"
 # CLI tool that moves files or folder to the trash
 brew "trash", link: true
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Watch files and take action when they change
+brew "watchman"
 # Internet file retriever
 brew "wget"
 # JavaScript package manager
@@ -98,6 +109,8 @@ brew "yarn"
 brew "zoxide"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Real-time type-ahead completion for Zsh
+brew "zsh-autocomplete"
 # Native, fast starting Clojure interpreter for scripting.
 brew "borkdude/brew/babashka"
 # Transform JSON into EDN into Transit.
@@ -112,12 +125,18 @@ brew "mongodb/brew/mongodb-database-tools"
 cask "1password"
 # Command-line interface for 1Password
 cask "1password-cli"
+# Cross platform SQL editor and database management app
+cask "beekeeper-studio"
+# Anthropic's official Claude AI desktop app
+cask "claude"
 # Utilities designed to make common development tasks easier
 cask "devtoys"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerised applications and microservices
 cask "docker"
+# Security audit software
+cask "drata-agent"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 # Web browser
@@ -137,14 +156,20 @@ cask "google-chrome"
 cask "grammarly"
 # HTTP and GraphQL Client
 cask "insomnia"
+# IDE for Java development - community edition
+cask "intellij-idea-ce"
 # GPU-based terminal emulator
 cask "kitty"
+# Privacy-first, open-source platform for knowledge sharing and management
+cask "logseq"
 # Provides updates to various Microsoft products
 cask "microsoft-auto-update"
 # Meet, chat, call, and collaborate in just one place
 cask "microsoft-teams"
 # Interactive tool for analyzing MongoDB data
 cask "mongodb-compass"
+# Knowledge base that works on top of a local folder of plain text Markdown files
+cask "obsidian"
 # Client program for the OpenVPN Access Server
 cask "openvpn-connect"
 # Collaboration platform for API development
@@ -182,6 +207,7 @@ vscode "betterthantomorrow.calva"
 vscode "betterthantomorrow.calva-spritz"
 vscode "bradlc.vscode-tailwindcss"
 vscode "djblue.portal"
+vscode "docker.docker"
 vscode "enkia.tokyo-night"
 vscode "esbenp.prettier-vscode"
 vscode "firsttris.vscode-jest-runner"
