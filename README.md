@@ -53,6 +53,7 @@ The following repositories served as inspiration for this repository:
 - [jacobwgillespie/dotfiles](https://github.com/jacobwgillespie/dotfiles)
 - [mathiasbynes/dotfiles](https://github.com/mathiasbynens/dotfiles)
 - [ryanb/dotfiles](https://github.com/ryanb/dotfiles)
+- Bozhidar Batsov: [Back to the Basics: Zsh without Oh My Zsh](https://batsov.com/articles/2025/03/01/back-to-the-basics-zsh-without-oh-my-zsh/)
 
 
 ## License
