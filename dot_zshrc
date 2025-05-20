@@ -10,7 +10,10 @@ setopt INC_APPEND_HISTORY
 setopt autocd
 
 # Initialize completion
-autoload -U compinit; compinit
+autoload -Uz compinit && compinit
+
+# Make completion case insensitve
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 
 # The most important aliases ever (the only thing I borrowed from OMZ)
 alias l='ls -lah'
