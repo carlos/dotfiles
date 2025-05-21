@@ -88,5 +88,8 @@ complete -o nospace -C /opt/homebrew/bin/terraform terraform
 # Zsh Autoenv
 source ~/.zsh-autoenv/autoenv.zsh
 
+# Load SSH keys from 1Password
+export SSH_AUTH_SOCK=~/Library/Group\ Containers/2BUA8C4S2C.com.1password/t/agent.sock
+
 # Custom scripts
 export PATH=$PATH:~/bin:~/Projects/Personal/scripts
